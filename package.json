@@ -1,0 +1,50 @@
+{
+  "name": "coinestate-v2",
+  "version": "2.0.0",
+  "description": "CoinEstate NFT-Only Platform - German GmbH Beneficial Ownership Model",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm run test --prefix frontend",
+    "install:all": "npm install && npm install --prefix frontend && npm install --prefix contracts",
+    "contracts:compile": "npm run compile --prefix contracts",
+    "contracts:test": "npm run test --prefix contracts",
+    "contracts:deploy": "npm run deploy --prefix contracts",
+    "lint": "npm run lint --prefix frontend",
+    "lint:fix": "npm run lint:fix --prefix frontend",
+    "format": "npm run format --prefix frontend",
+    "security:audit": "npm audit && npm audit --prefix frontend && npm audit --prefix contracts",
+    "start": "npm start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finsterfurz/coinestateV2.git"
+  },
+  "keywords": [
+    "nft",
+    "real-estate",
+    "german-gmbh",
+    "beneficial-ownership",
+    "compliance",
+    "tokenization",
+    "ethereum",
+    "web3",
+    "property-investment",
+    "legal-compliant"
+  ],
+  "author": "CoinEstate Development Team",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/finsterfurz/coinestateV2/issues"
+  },
+  "homepage": "https://github.com/finsterfurz/coinestateV2#readme",
+  "workspaces": [
+    "frontend",
+    "contracts"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
