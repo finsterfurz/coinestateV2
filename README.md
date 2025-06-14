@@ -134,8 +134,7 @@ npx hardhat test
 Immobilienwert: €2.500.000 (2.500 NFTs × €1.000)
 ├── Immobilienkauf: €2.000.000
 ├── Rechtliche Struktur: €100.000  
-├── Technologie-Platform: €200.000
-├── Reserve-Fonds: €175.000
+├── Reserve-Fonds: €375.000
 └── Escrow-Gebühren: €25.000
 
 Monatliche Mieteinnahmen → Deutsche GmbH
@@ -145,23 +144,62 @@ Monatliche Mieteinnahmen → Deutsche GmbH
 
 ---
 
-## 🌍 **Roadmap & Expansion**
+# 🌍 CoinEstate Roadmap & Expansion
 
-### **Phase 1: Deutschland (Q2 2025)**
-- [x] NFT-only Architektur implementiert
-- [x] Deutsche Rechtskonformität etabliert
-- [ ] Erste GmbH-Gründung (Berlin Bürogebäude)
-- [ ] 2.500 Community NFTs Launch
+## Phase 1: Germany (Q2 2025)
+- [ ] Homepage (Phase 1) live: coinestate.io
+    - [ ] Project intro, FAQ, legal disclosures
+    - [ ] NFT mint page (wallet-based)
+    - [ ] Roadmap + Whitepaper download
+    - [ ] Property teaser: Kamp-Lintfort
+    - [ ] 
+- [ ] Homepage (Phase 2 upgrade):
+    - [ ] Wallet-based member login
+    - [ ] Access to personal NFT dashboard
+    - [ ] GmbH snapshot: assets, tenant data, earnings
+    - [ ] Community proposals (non-binding)
+    - [ ] Light KYC opt-in for GmbH-related financial entitlements (non-tokenized)
+- [ ] Incorporation of **CoinEstate OÜ** (Estonia) as platform operator
+- [x] **NFT-only architecture implemented**
+  - [ ] Deployment of `GmbHOwnershipNFT` smart contract  
+  - [ ] NFT documents beneficial interest in a property-holding German GmbH  
+  - [x] No tokens, no staking, no investment pooling  
+  - [ ] Metadata includes GmbH ID, property reference, and governance rights  
+  - [ ] Legal share transfer remains off-chain and notarial (§15 GmbHG)  
+  - [ ] Current structure designed to operate without BaFin/MiCA licensing
+- [x] German legal compliance framework validated  
 
-### **Phase 2: DACH Region (Q3-Q4 2025)**
-- [ ] Expansion nach Österreich
-- [ ] Schweizer Markt-Evaluation
-- [ ] Cross-Border GmbH Strukturen
+- [ ] Launch of 2,500 community NFTs  
+- [ ] First German GmbH established (Kamp-Lintfort property)  
+- [ ] Scaling to 5+ active GmbH-based real estate projects  
+- [ ] Internal legal review process initiated for future MiCA/BaFin readiness  
 
-### **Phase 3: EU Expansion (2026)**
-- [ ] Niederlande (Amsterdam)
-- [ ] Frankreich (Paris)
-- [ ] Enhanced Governance Features
+## Phase 2: DACH Region (Q3–Q4 2025)
+- [ ] Expansion into Austria via local SPVs  
+- [ ] Swiss market evaluation (non-tokenized legal structure)  
+- [ ] Cross-border GmbH and governance setup (Estonia ↔ DACH)  
+- [ ] Platform remains MiCA/BaFin-exempt until scale triggers apply  
+
+## Phase 3: EU Expansion (2026)
+- [ ] Netherlands (Venlo)  
+- [ ] France (Paris)  
+- [ ] Spain (TBD)  
+- [ ] Community-based rental model activated
+- [ ] Homepage (Phase 3 upgrade):
+    - [ ] Rental model data: yield overview per property
+    - [ ] Voting interface (use-based, not token-weighted)
+    - [ ] Tenant selection feedback (if allowed by local law)
+    - [ ] DAO-lite tools (snapshot-style voting)
+- [ ] NFT metadata linked to GmbH rights structure; economic participation handled off-chain via registered shareholder          agreements  
+- [ ] Governance upgrades: rental voting, access rights, allocation  
+- [ ] Legal review for potential MiCA/BaFin registration upon reaching volume thresholds
+
+## Phase 4: Global Expansion (2026–2027)
+- [ ] Thailand  
+- [ ] Bali  
+- [ ] International rollout of rental model  
+- [ ] Multi-region governance expansion  
+- [ ] Regulatory filings (MiCA/BaFin) prepared if triggered by asset scale or investor class  
 
 ---
 
