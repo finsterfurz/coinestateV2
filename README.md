@@ -197,9 +197,15 @@ Monatliche Mieteinnahmen → Deutsche GmbH
 ## Phase 4: Global Expansion (2026–2027)
 - [ ] Thailand  
 - [ ] Bali  
-- [ ] International rollout of rental model  
+- [ ] International rollout of rental model
+- [ ] Homepage (Phase 4 upgrade):
+    - [ ]         Multilingual UX
+    - [ ]         Investor portal with regional KYC switch
+    - [ ]         Live property metrics (occupancy, net return)
+    - [ ]         Smart distribution logic (if legally allowed)
 - [ ] Multi-region governance expansion  
-- [ ] Regulatory filings (MiCA/BaFin) prepared if triggered by asset scale or investor class  
+- [ ] Regulatory filings (MiCA/BaFin) prepared if triggered by asset scale or investor class
+- [ ] Legal filings only where required based on local laws
 
 ---
 
